@@ -151,3 +151,35 @@ header {
 .nothingSaved p {
     font-size: 50px;
 }
+@media (max-width : 480px) {
+    #save-btn {
+        width: 180px;
+        height: 50px;
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+    header {
+        font-size: 1.3rem;
+        letter-spacing: 0;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .container div select {
+        width: 335px;
+    }
+    .container div label {
+        font-size: 1.5rem;
+    }
+    .problem-inp label {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .savedModal {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #card-main {
+        margin: 0px 15px;
+    }
+}
